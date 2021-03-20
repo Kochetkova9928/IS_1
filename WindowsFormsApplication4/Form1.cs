@@ -226,7 +226,7 @@ namespace WindowsFormsApplication4
 
         public void UpdateWeightTrackBarLabel()
         {
-            CurrentWeigthLabel.Text = $"От {WeigthTrackBar.Value}";
+            CurrentWeigthLabel.Text = $"До {WeigthTrackBar.Value}";
         }
 
         public void UpdateCoolFactorTrackBarLabel()
