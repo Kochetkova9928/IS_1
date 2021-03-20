@@ -18,7 +18,7 @@ namespace WindowsFormsApplication4
                     Price = 14000,
                     BatteryCapacity = 1500,
                     Memory = 64,
-                    Weight = 200,
+                    Weight = 300,
                     CoolFactor = 3,
                     ReleaseDate = DateTime.Now.AddYears(-1),
                     IsSpecialized = false
@@ -30,7 +30,7 @@ namespace WindowsFormsApplication4
                     Price = 6000,
                     BatteryCapacity = 2000,
                     Memory = 16,
-                    Weight = 200,
+                    Weight = 150,
                     CoolFactor = 1,
                     ReleaseDate = DateTime.Now.AddYears(-10),
                     IsSpecialized = false
@@ -42,7 +42,7 @@ namespace WindowsFormsApplication4
                     Price = 8000,
                     BatteryCapacity = 3000,
                     Memory = 16,
-                    Weight = 200,
+                    Weight = 350,
                     CoolFactor = 1,
                     ReleaseDate = DateTime.Now.AddYears(-6),
                     IsSpecialized = true
@@ -66,7 +66,7 @@ namespace WindowsFormsApplication4
                     Price = 70000,
                     BatteryCapacity = 3000,
                     Memory = 64,
-                    Weight = 200,
+                    Weight = 210,
                     CoolFactor = 5,
                     ReleaseDate = DateTime.Now,
                     IsSpecialized = false

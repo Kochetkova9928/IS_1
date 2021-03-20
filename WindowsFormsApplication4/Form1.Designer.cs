@@ -70,7 +70,7 @@
             // PhoneListBox
             // 
             this.PhoneListBox.FormattingEnabled = true;
-            this.PhoneListBox.Location = new System.Drawing.Point(633, 221);
+            this.PhoneListBox.Location = new System.Drawing.Point(590, 221);
             this.PhoneListBox.Name = "PhoneListBox";
             this.PhoneListBox.Size = new System.Drawing.Size(247, 303);
             this.PhoneListBox.TabIndex = 0;
@@ -187,9 +187,10 @@
             // ModelLabel
             // 
             this.ModelLabel.AutoSize = true;
-            this.ModelLabel.Location = new System.Drawing.Point(630, 203);
+            this.ModelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ModelLabel.Location = new System.Drawing.Point(587, 205);
             this.ModelLabel.Name = "ModelLabel";
-            this.ModelLabel.Size = new System.Drawing.Size(114, 13);
+            this.ModelLabel.Size = new System.Drawing.Size(161, 16);
             this.ModelLabel.TabIndex = 13;
             this.ModelLabel.Text = "Подходяшие модели:";
             // 
@@ -290,9 +291,9 @@
             this.PhonePanel.Controls.Add(this.label4);
             this.PhonePanel.Controls.Add(this.label3);
             this.PhonePanel.Controls.Add(this.label2);
-            this.PhonePanel.Location = new System.Drawing.Point(427, 12);
+            this.PhonePanel.Location = new System.Drawing.Point(584, 12);
             this.PhonePanel.Name = "PhonePanel";
-            this.PhonePanel.Size = new System.Drawing.Size(453, 180);
+            this.PhonePanel.Size = new System.Drawing.Size(296, 180);
             this.PhonePanel.TabIndex = 23;
             // 
             // label7

@@ -260,7 +260,7 @@ namespace WindowsFormsApplication4
                 PhoneListBox.Items.Add(phone.Name);
             }
 
-            if (PhoneListBox.SelectedIndex < 0)
+            if (PhoneListBox.SelectedIndex < 0 && PhoneListBox.Items.Count > 0)
             {
                 PhoneListBox.SelectedIndex = 0;
             }
