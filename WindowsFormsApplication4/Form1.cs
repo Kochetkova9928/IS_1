@@ -64,6 +64,7 @@ namespace WindowsFormsApplication4
             return Category.Any;
         }
 
+        // в зависимости от категории обновляем параметры выбора
         private void ChangeCategory(Category c)
         {
             switch (c)
@@ -159,6 +160,7 @@ namespace WindowsFormsApplication4
             IsSpecializedCheckBox.Checked = false;
         }
 
+        // обновляем все значения параметров в зависимости от категории
         public void UpdateAllValues()
         {
             var phones = model.Phones;
@@ -209,6 +211,7 @@ namespace WindowsFormsApplication4
             ReleaseDateUpDown.Value = ReleaseDateUpDown.Minimum;
         }
 
+        // обновляем Label для каждого параметра в зависимости от выбранной категории
         public void UpdatePriceTrackBarLabel()
         {
             CurrentPriceLabel.Text = $"До {PriceTrackBar.Value}";
@@ -234,6 +237,7 @@ namespace WindowsFormsApplication4
             CurrentCoolFactorLabel.Text = $"От {CoolFactorTrackBar.Value}";
         }
 
+        // обновляем список телефонов в зависимости от такого какие параметры выбрал пользователь
         public void UpdatePhoneList()
         {
             var price = PriceTrackBar.Value;
@@ -266,6 +270,7 @@ namespace WindowsFormsApplication4
             }
         }
 
+        // обновляем все скроллеры (делаем кликабельными или нет), обновляем список подобранных телефонов
         private void CategoryComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             var comboBox = sender as ComboBox;
@@ -313,6 +318,7 @@ namespace WindowsFormsApplication4
             UpdatePhoneList();
         }
 
+        // обновляем лист-бокс "Характеристики выбранной модели"
         private void PhoneListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             var phone = model.Phones.FirstOrDefault(x => x.Name == (string)PhoneListBox.SelectedItem);
